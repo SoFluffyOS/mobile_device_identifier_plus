@@ -3,7 +3,7 @@
 # Run `pod lib lint mobile_device_identifier.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'mobile_device_identifier'
+  s.name             = 'mobile_device_identifier_plus'
   s.version          = '0.0.1'
   s.summary          = 'A new Flutter plugin project.'
   s.description      = <<-DESC
