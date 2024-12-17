@@ -1,7 +1,9 @@
 [![Actions Status](https://github.com/alfanthariq/mobile_device_identifier/workflows/Build%20and%20Test/badge.svg)](https://github.com/alfanthariq/mobile_device_identifier/actions)
 
 
-# mobile_device_identifier
+# mobile_device_identifier_plus
+
+#### Original package: [mobile_device_identifier](https://pub.dev/packages/mobile_device_identifier)
 
 Flutter package to obtain unique ID from mobile device (android / ios) with uninstall resistant
 <br /><br />
@@ -15,7 +17,7 @@ iOS minimum version = 11
 final _mobileDeviceIdentifier = MobileDeviceIdentifier().getDeviceId();
 ```
 
-You can combined with any encoding method to beautify string id. For example use Base64 encode with return value like 
+You can combined with any encoding method to beautify string id. For example use Base64 encode with return value like
 ```
 RjFGMUJDNUItQkJERC00NjZCLUE2MzgtQzRDNUZGMDdCQzhF
 ```
